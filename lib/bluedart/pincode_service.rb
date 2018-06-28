@@ -12,7 +12,7 @@ module Bluedart
       else
         #'http://netconnect.bluedart.com/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc'
         #"http://netconnect.bluedart.com/Ver1.8/Demo/ShippingAPI/WayBill/WayBillGeneration.svc"
-        "http://netconnect.bluedart.com/ver1.7/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc"
+        "http://netconnect.bluedart.com/Ver1.7/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc?wsdl"
       end
     end
 
