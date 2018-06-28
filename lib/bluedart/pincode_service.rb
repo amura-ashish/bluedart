@@ -10,7 +10,8 @@ module Bluedart
       if @mode == 'prod'
         'http://netconnect.bluedart.com/ShippingAPI/Finder/ServiceFinderQuery.svc'
       else
-        'http://netconnect.bluedart.com/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc'
+        #'http://netconnect.bluedart.com/Demo/ShippingAPI/Finder/ServiceFinderQuery.svc'
+        "http://netconnect.bluedart.com/Ver1.8/Demo/ShippingAPI/WayBill/WayBillGeneration.svc"
       end
     end
 
